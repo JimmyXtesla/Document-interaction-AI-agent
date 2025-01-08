@@ -26,7 +26,7 @@ This project implements a document interaction AI agent that allows users to upl
 
 ## Setup
 
-1.  Clone: `git clone [your-repository-url]`
+1.  Clone: `git clone https://github.com/JimmyXtesla/Document-interaction-AI-agent/`
 2.  Install dependencies: `pip install -r requirements.txt`
 3.  Install Ollama (see [ollama.com](https://ollama.com/)).
 4.  Download an Ollama model (e.g., `ollama pull llama2`).
