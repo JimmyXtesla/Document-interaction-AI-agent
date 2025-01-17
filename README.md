@@ -1,4 +1,4 @@
-# Document-interaction-AI-agent
+# Document interaction AI agent
 
 This project implements a document interaction AI agent that allows users to upload documents, ask questions, and generate literature reviews. It uses Ollama for language processing, RAG for contextual understanding, and ChromaDB for vector storage.
 
