@@ -14,7 +14,6 @@ This project implements a document interaction AI agent that allows users to upl
 -   Simple API.
 
 ## Technologies Used
-
 -   Ollama
 -   Langchain
 -   ChromaDB
@@ -25,7 +24,6 @@ This project implements a document interaction AI agent that allows users to upl
 -   PyPDFLoader/UnstructuredWordDocumentLoader
 
 ## Setup
-
 1.  Clone: `git clone https://github.com/JimmyXtesla/Document-interaction-AI-agent/`
 2.  Install dependencies: `pip install -r requirements.txt`
 3.  Install Ollama (see [ollama.com](https://ollama.com/)).
@@ -34,7 +32,6 @@ This project implements a document interaction AI agent that allows users to upl
 6.  Open your browser to `http://127.0.0.1:5000/`.
 
 ## Usage
-
 1.  Upload documents.
 2.  Ask questions or enter review topic.
 3.  Click on 'Ask Question' or 'Generate Review'.
