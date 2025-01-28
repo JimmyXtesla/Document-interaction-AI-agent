@@ -41,5 +41,4 @@ This project implements a document interaction AI agent that allows users to upl
 Contributions welcome! Fork, branch, and submit a pull request.
 
 ## License
-
 [MIT License]
