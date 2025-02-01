@@ -16,7 +16,7 @@ UPLOAD_FOLDER = 'uploads'
 PERSIST_DIRECTORY = "chromadb_persist"
 COLLECTION_NAME = "my_research_papers"
 OLLAMA_MODEL = "llama2"
-ALLOWED_EXTENSIONS = {'pdf', 'docx'}
+ALLOWED_EXTENSIONS = {'pdf', 'docx', 'xlsx'}
 
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
