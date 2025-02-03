@@ -8,9 +8,7 @@ from langchain_community.llms import Ollama
 from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 from werkzeug.utils import secure_filename
-
 app = Flask(__name__)
-
 # Configuration
 UPLOAD_FOLDER = 'uploads'
 PERSIST_DIRECTORY = "chromadb_persist"
