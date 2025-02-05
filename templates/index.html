@@ -64,7 +64,7 @@
     const files = fileUpload.files;
 
     if(files.length === 0){
-      uploadStatus.textContent = "No files selected.";
+      uploadStatus.textContent = "No files selected, please select a file";
       return;
     }
 
@@ -86,7 +86,7 @@
         uploadStatus.textContent = data.message
       }
     } catch (error){
-      uploadStatus.textContent = "Upload failed: " + error
+      uploadStatus.textContent = "File Upload failed: " + error
     }
   });
 
@@ -148,7 +148,7 @@
             responseOutput.textContent = data.error;
         }
       } catch (error) {
-         responseOutput.textContent = "An error occurred: " + error
+         responseOutput.textContent = "Program error " + error
       }
   })
 
